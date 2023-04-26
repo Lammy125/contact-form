@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.formContainer { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form {
+  margin-top: 70px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form input {
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 30px;
+  align-items: center;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #007bff;
+  width: 420px;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.centerSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  margin-top: 5px;
+  text-align: center;
+  background-color: rgb(252, 107, 107);
+  border-radius: 1px;
+  border: none;
+  font-size: 15px;
+}
+
+.nameSpan {
+  width: 120px;
+}
+
+.emailSpan {
+  width: 180px;
+}
+
+.messageSpan {
+  width: 140px;
+}
